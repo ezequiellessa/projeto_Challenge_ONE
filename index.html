@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Codificador e decodificador</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./imagens/logo2.jpeg" alt="">
+        <h1>Codificador & Decodificador </h1>
+
+    </header>
+    <main class="meio">
+        <div class="divEsquerda"><h2>digite o seu código aqui !</h2>
+            <textarea style="resize: none" name="texto" id="textarea" cols="30" rows="10"></textarea>
+      
+            <div class="botoes">
+                <input  onclick="criptografar()"  class="codificar " type="button" value="Codificar">
+                <input  onclick="descriptografar()" class="decodificar " type="button" value="Decodificar">
+                <input  onclick="limpar()" id="botaoLimpar" class="decodificar " type="button" value="Limpar">
+                
+                
+            </div>
+            <div class="divmeio">
+                <img src="./imagens/logo1.jpeg" alt="" srcset="">
+
+            </div>
+        
+        
+        </div>
+        <div class="divDireita"> <h2>seu código vai aparecer aqui ! </h2>
+            <textarea  style="resize: none" name="texto" id="textarea2" cols="30" rows="10"></textarea>
+            <div class="botoes">
+                <input  onclick="copiar()"  class="copiar " type="button" value="Copiar">
+                <input  onclick="descriptografar()" class="decodificar " type="button" value="Decodificar">
+                <input  onclick="criptografar()"  class="codificar " type="button" value="Codificar">
+                
+            </div>
+   
+        </div>
+        
+    </main>
+   
+
+
+        <footer>Produzido por ezequiel lessa de oliveira</footer>
+  <script src="./main.js"></script>
+</body>
+</html>
